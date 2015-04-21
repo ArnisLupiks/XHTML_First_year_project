@@ -1,0 +1,151 @@
+body {
+	
+    background: #7DBEFE;
+ 	background-repeat:no-repeat;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+	}
+
+	img.floatLeft { 
+   	 float: left; 
+    	margin: 4px; 
+    
+	}
+	img.floatRight { 
+ 	   float: right; 
+	    margin: 4px; 
+	}
+
+.text-justify {
+	text-align:justify;
+	margin:auto;
+	}
+
+.menu {
+	width: 700px;
+	margin: 10 auto 10px auto;
+	text-align: center;
+	background-color: #FDFEFE;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #555555;
+	word-spacing: 50px;
+	padding: 30px;
+	}
+
+.content{
+	width: 910px;
+	margin: 60px auto 0px auto;
+	text-align: center;
+	}
+	
+.header{
+	margin: 10px auto 0px auto;
+	width: 900ox;
+	background: #FDFEFE;
+	border: 1px dashed #666666;
+	font-size: 60px;
+	color: #000000;
+	}
+
+div#footer{
+	   border-top: none;
+	}
+
+.sidebar {
+	height: 980px; 
+	width: 230px;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	background: #FDFEFE;
+	
+	font-size: 18px;
+	color: #000000;
+	margin-top: 10px;
+	}
+
+.sidebar2 {
+	height: 600px; 
+	width: 130px;
+	float: left;
+	text-align: left;
+	padding: 10px;
+	background: #FDFEFE;
+	
+	font-size: 18px;
+	color: #000000;
+	margin-top: 10px;
+	}	
+
+.main {	
+	text-align: center;
+	width: 750px;
+	float: right;
+	background: #FDFEFE;
+	
+	font-size: 16px;
+	color: #000000;
+	margin-top: 10px;
+	}
+	
+	.main2 {	
+	width: auto;
+	margin: 20px auto auto 350px;
+	background: #FDFEFE;
+	
+	font-size: 16px;
+	color: #000000;
+	}
+	
+.menu a{
+	color: #000000;
+	text-decoration: none;
+	}
+	
+.menu a:hover{	
+	background-color: #000000;
+	padding: 10px;
+	color: #0040ab;
+	}
+
+.list {
+	float: left;
+	font-size: 16px;
+	color: #000000;
+	}
+
+	div.box {
+		margin: 0px 0px 30px 5px;
+		text-align:center;
+		padding: 5px;
+		height: 260px;
+		width: 260px;
+		float: right;
+}
+
+
+
+div#first-column {
+	margin: 3px 3px 3px 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*border: 1px solid gray;*/
+    /*background: rgb(240, 240, 240);*/
+    background-image: url("../Images/Site/bg3.gif");
+    width: 279px;
+    margin: 3px;
+}
+div#first-column {
+    left: 710px;
+}
+	
+	
+
+
+	
+
+	
+	

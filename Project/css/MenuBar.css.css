@@ -1,0 +1,26 @@
+* {margin:0;padding:0}
+ul#nav{
+list-style:none;
+margin:20px;
+}
+#nav li,ul#nav li a{
+	width:15em;
+	line-height:32px;
+	display:block;
+}
+ul#nav li a{
+	border-bottom:1px solid #000;
+	text-decoration:none;
+	text-indent:28px;
+	font-weight:bold;
+	color:#999;
+}
+ul#nav li a span{
+		float:left;
+		height:24px;
+		width:10px;
+		margin:4px;
+	background:#ccc;
+}
+ul#nav li a:hover{background:#999;color:#fff}
+ul#nav li a:hover span{background:#33FF99}

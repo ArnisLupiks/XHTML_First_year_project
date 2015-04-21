@@ -1,0 +1,160 @@
+body {
+
+   
+}
+
+
+div#header{
+ background-image: url("../Images/Untitled-3.jpg");
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+}
+
+
+div#container {
+    background: #FDFEFE;
+    position: relative;
+    min-height: 1650px;
+    border: 1px solid gray;
+    max-width: 1000px;
+    min-width: 750px;
+    margin: auto;
+    
+    }
+    
+div#content {
+    background: #FDFEFE;
+    margin: right;
+    padding: 20px;
+    border: 1px solid gray;
+    min-height: 700px;
+    width: 680px;
+}
+
+div#first-column {
+    right: 240px;
+    margin-right:30px;
+}
+
+div#footer{
+    background: rgb(20, 20, 20);
+    padding: 3px;
+    border: 1px solid gray;
+    max-width: 994px;
+    min-width: 744px;
+    margin: auto;
+    border-top: none;
+
+    }
+    
+    
+    /*center inline list*/
+   
+   div.ie5 {text-align:center}
+   ul#nav2 {
+   	border-top: 1px solid silver;
+   	border-bottom: 1px solid silver;
+   	list-style:none;
+
+   	background:#FDFEFE;
+   	margin:0px 0;
+   	white-space:nowrap;
+   	height:1.5em;
+   	width:1001px;
+   	text-align:center;
+   	margin-left:auto;
+   	margin-right:auto;
+   }
+   #nav2 li {
+   	float:left;
+   	background:#FDFEFE;
+   	width:20%;
+    
+   }
+   #nav2 a {
+   	border-left:1px solid silver;
+   	border-right:1px solid silver;
+   	line-height:1.5em;
+   	height:1.5em;	
+   	background:#f2f2f2;
+   	position:relative;
+   	text-decoration:none;
+   	display:block;
+   }
+   #nav2 a:hover {background:grey;color:#303030}
+   ul#nav2 li.selected a{background:#7DBEFE;color:white;}
+   ul#nav2 li.last a{border-right:2px solid silver;}
+* html ul#nav2 li.last{width:auto;}
+
+
+/* navigation side bar */
+
+* {margin:0;padding:0}
+ul#nav{
+list-style:none;
+margin:0px;
+margin-right: 10px;
+}
+#nav li,ul#nav li a{
+	width:10em;
+	line-height:32px;
+	display:block;
+}
+ul#nav li a{
+	border-bottom:1px solid #000;
+	text-decoration:none;
+	text-indent:20px;
+	font-weight:bold;
+	color:#000000;
+}
+ul#nav li a span{
+		float:left;
+		height:24px;
+		width:10px;
+		margin:4px;
+	background:#ccc;
+}
+ul#nav li a:hover{background:#999;color:#fff}
+ul#nav li a:hover span{background:#33FF99}
+
+div#paragraph {
+	margin: 50px 50px 10px 10px;
+	text-align:justify
+	}
+	
+div#paragraph2 {
+	margin: 40px 50px 10px 10px;
+	text-align:justify
+	}
+	
+div#images{
+	margin: 20px 50px 10px 10px;
+}
+
+div#images2{
+	
+	background-image:url('..Picture/Phones/Samsung-Galaxy-SII-1.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:left; 
+	}
+
+ul#position2{
+	margin: 75px 60px 10px 10px;
+
+	
+	}
+ul#position3{
+	margin: 10000px 60px 10px 10px;
+}
+
+p { font-family: arial; font-size: 16px; } 
+
+	h2.BoxHeaders {
+	font-size: 25px;
+	color: #D80000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
